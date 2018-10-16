@@ -1,0 +1,70 @@
+.school-header {
+    background: rgb(70, 12, 146);
+}
+.end {
+    justify-items: end !important;
+}
+.end1 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background: rgb(159, 109, 252);
+    border-radius: 20px;
+}
+.pt-120.head{
+    color: rgb(34, 27, 139);
+    font-weight: 500;
+}
+.primary-btn.text-uppercase.text {
+    background: rgb(222, 238, 5);
+    color: rgb(70, 12, 146);
+    margin-left: 19px;
+    font-weight: 600;
+    box-shadow: 0px 10px 50px 0px rgba(26, 23, 23, 0.3)
+}
+.col-lg-12.partners.pt-30 {
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 20px;
+    color: #222;
+}
+.partner.pt-20{
+    background: #222222 !important;
+}
+.black {
+    color: black !important;
+}
+.register {
+    color: rgb(70, 12, 146);
+    font-weight: 300;
+    font-size: 40px;
+} 
+.form-control.grey {
+    background: rgb(199, 195, 195);
+    color: #000 !important;
+}
+.pt-120{
+    padding-left: 20px;
+}
+.image {
+    padding-top: 60pt;
+
+}
+#register {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgb(70, 12, 146);
+    text-align: center;
+}
+#more {
+    color: rgb(70, 12, 146);
+    font-weight: 500;
+}
+#button{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}

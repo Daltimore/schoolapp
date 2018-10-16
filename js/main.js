@@ -137,7 +137,7 @@ $(document).ready(function(){
 
         $('html, body').animate({
 
-        scrollTop: $(window.location.hash).offset().top - 62
+        scrollTop: $(window.location.hash).offset().top - 20
 
         }, 1000)
 
