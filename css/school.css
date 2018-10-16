@@ -87,6 +87,23 @@
     padding-left: 20px;
     padding-right: 50px;
 }
+.container.page4 {
+    margin-top: 10%;
+}
+
+.card {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.row {
+    margin-bottom: 1%;
+}
+
+
+
+
 #more {
     color: rgb(70, 12, 146);
     font-weight: 500;
