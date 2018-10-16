@@ -38,6 +38,8 @@
     color: rgb(70, 12, 146);
     font-weight: 300;
     font-size: 40px;
+    margin-right: -100px; 
+    margin-top: 150px;
 } 
 .form-control.grey {
     background: rgb(199, 195, 195);
@@ -55,6 +57,35 @@
     font-weight: 300;
     color: rgb(70, 12, 146);
     text-align: center;
+}
+.sub-register{
+    text-align: center;
+    color: rgb(70, 12, 146);
+    margin-left: 50px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.sub-register b {
+    color: #000;
+    text-transform: uppercase;
+    color: rgb(70, 12, 146);
+    font-weight: 600;
+}
+.register-form {
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.register-form input {
+    background: #c2bdbd;
+    color: #000;
+}
+.school-select{
+    height: 35px; 
+    border: 2px solid blueviolet;
+    background: #fff;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 50px;
 }
 #more {
     color: rgb(70, 12, 146);
