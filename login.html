@@ -50,16 +50,16 @@
                          Log into your account
                      </h1>
 
-                     <div class="container text-center">
+                     <!-- <div class="main d-flex flex-column justify-content-between container text-center">
                             <div class="row">
                                     <div class="col">
                                             <div class="log-in d-flex flex-column justify-content-around">
-                                                    <a href="#" class="facebook btn btn-lg btn-secondary" role="button"><i class="fa fa-facebook-f" style="font-size:24px;"></i><p>Login WIth Facebook</p></a>
-                                                    <a href="#" class="twitter btn btn-lg btn-secondary" role="button"><i class="fa fa-twitter" style="font-size:24px;"></i><p>Login WIth Twitter</p></a>
-                                                    <a href="#" class="google btn btn-lg btn-secondary" role="button"><i class="fa fa-google" style="font-size:24px"></i><p>Login With Google</p></a>
+                                                    <a href="#" class="facebook btn btn-lg" role="button"><i class="fa fa-facebook-f" style="font-size:24px;"></i><p>Login WIth Facebook</p></a>
+                                                    <a href="#" class="twitter btn btn-lg " role="button"><i class="fa fa-twitter" style="font-size:24px;"></i><p>Login WIth Twitter</p></a>
+                                                    <a href="#" class="google btn btn-lg " role="button"><i class="fa fa-google" style="font-size:24px"></i><p>Login With Google</p></a>
                                                   </div>
                                     </div>
-                                    <div class="col">
+                                    <div class="col two">
                                       
                                     <div class="line"></div>
                                     <div class="circle">OR</div>
@@ -67,19 +67,20 @@
                                     <div class="col">
                                         <div class="log-in d-flex flex-column justify-content-around">
                                             <input class="form-control" type="text" placeholder="Username or email"><br />
-                                            <input class="form-control" type="text" placeholder="Password"><br />
-                                            <div class="log-in d-flex flex-column justify-content-around">
-                                                <label class="custom-control custom-checkbox">
-                                                    <input type="checkbox" aria-label="Checkbox for following text input">
-                                                    <span class="custom-control-indicator"></span>
-                                                    <span class="custom-control-description">Remember me</span>
-                                              </label>
+                                            <input class="password form-control" type="text" placeholder="Password"><br />
+                                            <div class="submit d-flex flex-row justify-content-between">
+                                                <div class="custom-control custom-checkbox">
+                                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" style="height:48px !important">
+                                                    <label class="custom-control-label" for="customCheck">Remember me</label>
+                                                  </div>
+                                              <a href="#" class="login btn btn-lg btn-secondary" role="button"><h2>LOG IN</h2></a>
+                                            </div>
                                             </div>
                                           </div>
                                       
                                           </div>
                                   </div>
-                          </div>
+                          </div> -->
 
      <!-- #header -->
 
@@ -87,6 +88,40 @@
         <!-- start banner Area -->
       
         <!-- End banner Area -->
+        <div class="main">
+        <div class="row flex-wrap h-100">
+            <div class="col-sm-5 log-in">
+                   
+                            <a href="#" class="facebook btn btn-lg" role="button"><i class="fa fa-facebook-f" style="font-size:32px;"></i><p>Login WIth Facebook</p></a>
+                            <a href="#" class="twitter btn btn-lg " role="button"><i class="fa fa-twitter" style="font-size:32px;"></i><p>Login WIth Twitter</p></a>
+                            <a href="#" class="google btn btn-lg " role="button"><i class="fa fa-google" style="font-size:32px"></i><p>Login With Google</p></a>
+                          
+            </div>
+            <div class="col-sm-2">
+                    <div class="col two">
+                                      
+                            <div class="line"></div>
+                            <div class="circle">OR</div>
+                            </div>
+            </div>
+            <div class="col-sm-5">
+                <div class="user">
+                    <input class="form-control" type="text" placeholder="Username or email"><br />
+                    <input class="form-control" type="text" placeholder="Password"><br />
+                </div>
+                <div class="submit">
+                        <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" style="height:48px !important">
+                                <label class="custom-control-label" for="customCheck">Remember me</label>
+                              </div>
+                          <a href="#" class="login btn btn-lg" role="button"><h2>LOG IN</h2></a>
+                </div>
+                <div class="option">
+                    <span><p class="reg">Register now </p><div class="line line2"></div> <p class="forgot">Forgot password ?</p></span>
+                </div>
+            </div>
+          </div>
+        </div>
               
 
         <script src="js/vendor/jquery-2.2.4.min.js"></script>
