@@ -108,3 +108,237 @@
     border-radius: 20px;
     font-weight: bold;
 }
+
+ #main-header {
+font-size: 50px;
+color:#212293;
+font-family: 'Montserrat', sans-serif;
+margin-top:115px;
+text-align: center;
+}
+/*
+.log-in{
+    height: 300px;
+    margin-top: 60px;
+  
+}
+.btn{
+    width: 250px;
+    height: 55px;
+    margin: auto;
+    border-radius: 9px;
+    font-size: 12px;
+    border:none;
+    
+}
+.fa{
+    float:left;
+    top:10px;
+    color:white;
+}
+.facebook{
+    background-color:#3B5998;
+}
+.twitter{
+    background-color:#1DA1F2;
+}
+.google{
+    background-color:#DB4437
+}
+
+.btn p{
+    padding-top: 10px;
+    text-align: 40px;
+    color:white;
+}
+
+.line {
+    border-left: 1px solid #DCDCDC;
+    height: 270px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:70px;
+}
+.circle{
+   
+    border:1px solid #DCDCDC;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 65px;
+    bottom: 130px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control  {
+    background: rgb(199, 195, 195);
+    margin:15px -30px 0;
+    padding: 15px 25px;
+    border-radius: 8px;
+}
+.password  {
+    
+    margin-top:-35px;
+    }
+.login{
+    width:120px;
+    margin-right:60px;
+    margin-top: -14px;
+    background:#FF5A5F;
+    color: white;
+}
+.login h2{
+    color:white;
+}
+.custom-control-label::before, 
+.custom-control-label::after {
+
+padding:10px
+}
+label{
+    padding-top: 5px;
+    margin-right: 5px;
+    width:120px;
+}
+.main{
+    width:800px;
+}  
+    
+.submit{
+    margin-bottom:20px;
+} */
+
+
+
+.main {
+    
+    height: 400px;
+    width: 60vw;
+    margin:auto;
+    
+    
+}
+.btn{
+    width: 300px;
+    height: 65px;
+    margin: auto;
+    border-radius: 9px;
+    font-size: 12px;
+    border:none;
+    
+}
+.fa{
+    float:left;
+    top:10px;
+    color:white;
+}
+.facebook{
+    background-color:#3B5998;
+}
+.twitter{
+    background-color:#1DA1F2;
+}
+.google{
+    background-color:#DB4437
+}
+
+.btn p{
+    padding-top: 13px;
+    font-size: 17px;
+    color:white;
+}
+.log-in{
+    margin-top:50px;
+    height: 70%;
+    width:450px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.line {
+    border-left: 1px solid #DCDCDC;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+    margin-top:68px;
+}
+.circle{
+   
+    border:1px solid #DCDCDC;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 38px;
+    top: 165px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-control  {
+    background: rgb(199, 195, 195);
+    padding: 23px 30px;
+    border-radius: 8px;
+    margin-left: 35px;
+}
+.user{
+    margin-top: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.submit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap:px;
+    width:100%;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.login{
+    width: 180px;
+    background-color:#FF5A5F;
+    
+}
+.login h2{
+    color:white;
+    padding-top: 6px;
+}
+
+.custom-control-label::before, 
+.custom-control-label::after {
+
+padding:12px;
+margin-top:15px;
+}
+label{
+    padding-left:10px;
+    padding-top:20px;
+}
+.line2{
+    height: 25px;
+    top:282px;
+    left:160px;
+}
+.reg{
+    color:#FF5A5F;
+    margin-top: 35px;
+    font-size: 1rem;
+    margin-left:20px;
+}
+.forgot{
+    margin-left: 160px;
+    margin-top: -35px;
+}
