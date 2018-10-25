@@ -277,7 +277,14 @@ label{
     justify-content: center;
     align-items: center;
 }
-.form-control  {
+/* .form-control  {
+    background: rgb(199, 195, 195);
+    padding: 23px 30px;
+    border-radius: 8px;
+    margin-left: 35px;
+} */
+
+#form-grey {
     background: rgb(199, 195, 195);
     padding: 23px 30px;
     border-radius: 8px;
@@ -446,7 +453,7 @@ padding:25px;
 }
 
 /* Hide the browser's default radio button */
-.container input {
+.main-body input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -547,4 +554,26 @@ padding:25px;
 .success-button:active {
     background-image: none;
     background-color:#8BA4F9;
+}
+
+.container.page4 {
+    margin-top: 10%;
+}
+ .card {
+    box-shadow: 0 8px 2px -2px rgb(214, 211, 211);
+    padding: 20%;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    background: url(../img/bg.jpeg);
+}
+.card h5 {
+    text-align: center;
+    background: #B29EFE;
+    border-radius: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+ .row {
+    margin-bottom: 1%;
 }
