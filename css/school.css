@@ -214,7 +214,7 @@ label{
     
     
 }
-.btn{
+.log-in .btn{
     width: 300px;
     height: 65px;
     margin: auto;
@@ -223,7 +223,7 @@ label{
     border:none;
     
 }
-.fa{
+.log-in .fa{
     float:left;
     top:10px;
     color:white;
@@ -238,7 +238,7 @@ label{
     background-color:#DB4437
 }
 
-.btn p{
+.log-in .btn p{
     padding-top: 13px;
     font-size: 17px;
     color:white;
@@ -332,4 +332,219 @@ label{
 .forgot{
     margin-left: 160px;
     margin-top: -35px;
+}
+
+.grey-background{
+margin-top: 110px;
+background-color: #F7F7F7;
+min-height:76vh;
+border-radius: 15px;
+padding:25px;
+}
+.stepa{
+    
+    position: absolute;
+    
+    
+}
+.everything{
+    margin-top:5px;
+}
+.first{
+    padding:11px;
+    margin-top:-2px;
+}
+.last{
+    padding:11px;
+    margin-top:-2px;
+}
+.letter{
+    width:40%;
+    font-size:12px;
+    color:#9096BA;
+}
+.letter b{
+    color:#9096BA;
+    letter-spacing: 2px;
+    font-size: 14px;
+
+}
+.top h4{
+    font-size: 12px !important;
+}
+.main-header{
+    margin-top: 25px;
+    font-size: 22px;
+}
+.top{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  .step {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 2px solid #9AA1FB;
+    border-radius: 50%;
+    transition: background 1s;
+    
+  }
+  .step.selected {
+    border: 2px solid #9AA1FB;   
+  }
+  .step.completed {
+    border: 2px solid #9AA1FB;
+    background: #9AA1FB; 
+  }
+  .progress {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    border-bottom: 2px solid #ACACA6;
+    z-index: -1;
+  }
+  .percent {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #4B81BD;
+    z-index: 1;
+    transition: width 1s;
+  }
+  .main-body{
+      padding: 30px 160px;
+      
+  }
+  .main-body label{
+      font-size: 18px;
+      text-align: center; 
+  }
+  
+  .containers {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #DCDCDF;
+    border-radius: 30px;
+    padding:15px 30px;
+    
+    
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 13px;
+    left: 14px;
+    height: 25px;
+    width: 25px;
+    background-color: #dcdcdf;
+    border-radius: 50%;
+    border:5px solid #B29EFE;
+    
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #B29EFE;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	
+}
+.next-button{
+    background-color: #8BA4F9 ;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:170px;
+    color:white;
+    padding: 10px;
+    margin:auto;
+    border: 0;
+
+}
+.next-button:active {
+    background-image: none;
+    background-color:#8BA4F9;
+}
+
+.success-header{
+
+    margin-top: 25px;
+    font-size: 50px;
+    font-family: 'Quicksand';
+    font-style: bold;
+
+}
+.success-middle{
+
+    margin-top: 25px;
+    font-size: 36px;
+    font-family: 'Quicksand';
+    font-style: bold;
+    margin-top: 40px;
+}
+.success-button{
+    background-color: #8BA4F9 ;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:250px;
+    color:white;
+    padding: 10px;
+    margin:100px auto;
+    border: 0;
+
+}
+.success-button:active {
+    background-image: none;
+    background-color:#8BA4F9;
 }
