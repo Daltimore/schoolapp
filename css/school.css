@@ -576,7 +576,8 @@ padding:25px;
     position: fixed;
     height: 100%;
     z-index: 10000;
-    transition: all .4s ease 0s;
+    overflow: auto;
+    transition: all 0.3s cubic-bezier(.87, -.41, .19, 1.44);
     box-shadow: 0px 0px 7px rgba(55, 71, 79, 0.395409);
 
 }
