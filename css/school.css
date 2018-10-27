@@ -56,13 +56,13 @@
     font-size: 20px;
     font-weight: 300;
     color: rgb(70, 12, 146);
-    text-align: center;
+    margin-left: -10px;
 }
 .sub-register{
     text-align: center;
     color: rgb(70, 12, 146);
     margin-left: 50px;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 10px;
 }
 .sub-register b {
@@ -290,6 +290,27 @@ label{
     border-radius: 8px;
     margin-left: 35px;
 }
+#dashbtn {
+    margin-left: 10%;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    box-shadow: 0 0 20px #eee;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
+
+.dashboard-btn {
+    margin-left: 25%;
+    padding: 20px;
+    margin-top: -20px;
+}
+#dashtext {
+ margin-left: 35%;  
+ font-size: 25px;
+ letter-spacing: 7px; 
+ color: #000;
+}
 .user{
     margin-top: 63px;
     display: flex;
@@ -451,6 +472,7 @@ padding:25px;
     
     
 }
+
 
 /* Hide the browser's default radio button */
 /* .container input {
@@ -735,9 +757,6 @@ width: 500px;
 margin-top:5px;
 margin-bottom: 6px;
 background: #F7F7F7;
-
-
-
 
 }
 .options {

@@ -69,15 +69,14 @@
                         <div class="col-sm-6">
                           <div class="custom-control custom-radio custom-control-inline">
                               <input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
-                              <label class="custom-control-label" for="customRadio">Students</label>
+                              <label class="custom-control-label" for="customRadio">Lecturers</label>
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
-                              <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
-                              <label class="custom-control-label" for="customRadio2">Lectures</label>
+                              <input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx" onclick="disableMyText()">
+                              <label class="custom-control-label" for="customRadio2">Students</label>
                             </div> 
                         </div>
                         <div class="col-sm-6">
-                                <input class="form-control md" type="text" placeholder="Phone Number"><br />
                             <select name="school" class="school-select">
                                 <option selected>Choose your school</option>
                                 <option value="volvo">Volvo</option>
@@ -86,7 +85,7 @@
                               </select>
                         </div>
                       </div><br />
-                      <input class="form-control" type="text" placeholder="Matriculation Number">
+                      <input class="form-control" type="text" placeholder="Matriculation Number" id="matNum" value="">
                       <div class="text-center pt-40">
                       <button type="button" class="btn btn-primary btn-lg" style="padding-left:100px; padding-right:100px; border-radius: 20px; background: rgb(245, 52, 52); border: 2px solid rgb(248, 33, 33);"><b style="color: #fff; font-size: 25px;">REGISTER</b></button><br />
                       <div class="text-center pt-20 pb-20">
@@ -119,6 +118,7 @@
         <script src="js/jquery.counterup.min.js"></script>						
         <script src="js/mail-script.js"></script>	
         <script src="js/main.js"></script>	
+        <script src="js/admin2.js"></script>	
     </body>
 </html>
 
