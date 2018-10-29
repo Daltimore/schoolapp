@@ -270,7 +270,7 @@ label{
     width: 50px;
     border-radius: 50%;
     position: absolute;
-    left: 38px;
+    left: 27px;
     top: 165px;
     background: white;
     display: flex;
@@ -359,7 +359,7 @@ label{
 }
 .forgot{
     margin-left: 160px;
-    margin-top: -35px;
+    margin-top: -37px;
 }
 
 .grey-background{
@@ -599,7 +599,6 @@ padding:25px;
     background: #fff;
     position: fixed;
     height: 100%;
-    z-index: 10000;
     overflow: auto;
     transition: all 0.3s cubic-bezier(.87, -.41, .19, 1.44);
     box-shadow: 0px 0px 7px rgba(55, 71, 79, 0.395409);
@@ -921,3 +920,75 @@ display:flex;
  .row {
     margin-bottom: 1%;
 }
+.avatar img{
+    border: 2px solid #eeeeee;
+    border-radius: 100px;
+    display: block;
+    height: 41px;
+    width: 41px;
+    margin-top: 7px;
+    position: absolute;
+    top:2px;
+
+}
+.avatar .profile{
+    top:10px;
+    position: absolute;
+    right: 140px;
+   
+}
+.profile .btn{
+    border:0px;
+    background:0px;
+    color:white;
+
+}
+
+.dropleft .dropdown-toggle::before{
+    transform: rotate(270deg);
+
+}    
+
+.profilt .dropdown-menu{
+    will-change: none !important;
+    transform: none !important;
+    margin-top: 38px!Important;
+    margin-left: -90px !important;
+}
+.element .style{
+    will-change: none !important;
+    transform: none !important;
+    margin-top: 38px!Important;
+    margin-left: -90px !important;
+
+
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+
+  .shoe{
+      width: 35vw;
+      height: 5vh;
+      display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 45px;
+margin-left: 50px;
+margin-top: -48px;
+  }
+
+  .progress{
+    position: absolute;
+    width: 220px;
+    height: 9px;
+    border-bottom: 2px solid #ACACA6;
+    
+    /* z-index: -1; */
+  
+  
+
+  }
+
+.total-bar{
+   width: 20px;
+  }
